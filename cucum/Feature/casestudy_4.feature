@@ -17,12 +17,13 @@
 ## (Comments)
 #Sample Feature Definition Template
 
-Feature: Login
-Scenario Outline: Login with valid credentials
-   Given larry has registered in the testme app	
-    When larry logged in with below "<username>" and "<password>"
-    Then larry login successful in testme app
-    Examples: 
-      | username  | password  |        
-      | Larry29   | Password12| 
-      | Sean20    | TestMe@123|
+
+Feature: Add to cart
+        add the product you want to cart
+Scenario: Successful adding of product to cart
+Given login on testmeapp
+When Search a product and find details
+Then Search for cart
+And proceed with payment for empty cart
+
+  

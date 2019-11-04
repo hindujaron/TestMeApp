@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="Feature/Login.feature",
+		features="Feature/sc.feature",
 		glue= {"stepdeff"},
 		monochrome=true,
 		plugin= {"pretty","html:test-output"}
