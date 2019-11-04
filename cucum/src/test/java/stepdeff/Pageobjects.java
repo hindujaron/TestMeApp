@@ -87,7 +87,7 @@ public class Pageobjects {
 		lastName.sendKeys("hindu");
 	}
 
-	public  void password() {
+	public  void password() { 
 		password.sendKeys("Password123");
 	}
 
